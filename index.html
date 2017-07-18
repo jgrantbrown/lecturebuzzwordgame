@@ -20,11 +20,11 @@
 <!--Row 1  row by column -->
 <tr id="row1">
   <td id=1  data-default=''>BUTTON
-      <p id="saybutton" class=counter> Total Count: 0</p>
-      <button id="btnplus" class=btn>Add 1</button>
-      <button id="btnminus" class=btn>Reduce 1</button>
-      <button id="btnplusfive" class=btn>Add 5</button>
-      <button id="btnclear" class=btn>Clear</button>
+      <p id="saybtn" class=counter> Total Count: 0</p>
+      <input type="button"  id="btnplus" class="btn addcount" value="Add 1"/>
+      <input type="button"  id="btnminus" class="btn minusbtn" value="Reduce 1"/>
+      <input type="button" id="btnplusfive" class="btn plusfivebtn" value="Add 5"/>
+      <input type="button" id="btnclear" class="btn clearbtn" value="Clear"/>
     </td>
 
 
@@ -39,11 +39,13 @@
 
 <td id=3 data-default='' class = databox>FORM
   <p id="sayform"> Total Count: 0</p>
-  <button id="frmplus" class=btn>Add 1</button>
+  <button id="frmplus" class="btn addcount">Add 1</button>
   <button id="frmminus" class=btn>Reduce 1</button>
   <button id="frmplusfive" class=btn>Add 5</button>
   <button id="frmclear" class=btn>Clear</button>
 </td>
+
+<h1 class=oversaid></h1>
 
 </tr>
 </table>
